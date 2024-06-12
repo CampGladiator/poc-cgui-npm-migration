@@ -2,12 +2,12 @@
   "name": "cgui-core-poc",
   "version": "0.0.1",
   "description": "POC for cgui-core component library migration to NPM",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
   "files": [
-    "dist"
+    "build"
   ],
-  "types": "dist/index.d.ts",
+  "types": "build/index.d.ts",
   "author": "Camp Gladiator",
   "license": "MIT",
   "private": false,
