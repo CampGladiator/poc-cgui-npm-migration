@@ -1,0 +1,18 @@
+{
+  "name": "cgui-core-poc",
+  "version": "0.0.1",
+  "description": "POC for cgui-core component library migration to NPM",
+  "main": "index.ts",
+  "repository": "cgui.campgladiator.com",
+  "author": "Camp Gladiator",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  }
+}

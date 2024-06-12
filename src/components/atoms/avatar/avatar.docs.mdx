@@ -1,0 +1,32 @@
+---
+description: "Displays a user photo"
+labels: ["atoms"]
+---
+
+import { Avatar } from "./";
+import { FigmaEmbed } from "@campgladiator/cgui-core.private.figma-embed";
+
+## Avatar
+
+The avatar component has two options for display. You can leave image attribute blank to show the placeholder image, or provide an image.
+
+### Default Avatar
+
+```jsx live
+<Avatar />
+```
+
+### Avatar with custom image/props
+
+```jsx live
+<Avatar
+  alt="Nate"
+  size="75px"
+  title="Avatar title"
+  src="https://en.gravatar.com/userimage/32884912/b318719acf13489f60cba203b71e4d15.png?size=200"
+/>
+```
+
+### Designs
+
+<FigmaEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvvqFoOfZ5B5AO9VkhpNnth%2FCGUI-Atoms-Library%3Fnode-id%3D2917%253A33" />
