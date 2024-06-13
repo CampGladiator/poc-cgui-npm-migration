@@ -1,19 +1,19 @@
-import React, { memo } from "react";
-import classNames from "classnames";
-import styles from "./avatar.module.scss";
+import React, { memo } from 'react'
+import classNames from 'classnames'
+import styles from './avatar.module.scss'
 
 export type AvatarProps = {
-  alt?: string;
-  className?: string;
-  size?: string;
-  src?: string;
-} & React.HTMLAttributes<HTMLImageElement>;
+  alt?: string
+  className?: string
+  size?: string
+  src?: string
+} & React.HTMLAttributes<HTMLImageElement>
 
 const Avatar = ({
-  alt = "user image",
-  className = "",
-  size = "48px",
-  src = "https://storage.googleapis.com/cgcdn/global-ui/images/avatars/placeholder.png",
+  alt = 'user image',
+  className = '',
+  size = '48px',
+  src = 'https://storage.googleapis.com/cgcdn/global-ui/images/avatars/placeholder.png',
   ...props
 }: AvatarProps) => (
   <img
@@ -23,6 +23,6 @@ const Avatar = ({
     style={{ width: size, height: size, ...props.style }}
     {...props}
   />
-);
+)
 
-export default memo(Avatar);
+export default memo(Avatar)
